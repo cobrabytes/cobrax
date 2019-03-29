@@ -87,6 +87,8 @@ Once the source code is ready the build steps are below.
     cd cobrax
 
     # Note autogen will prompt to install some more dependencies if needed
+    chmod a+x+w -R cobrax/
+    cd cobrax/
     ./autogen.sh
     ./configure 
     make
