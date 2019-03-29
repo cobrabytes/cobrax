@@ -1,5 +1,4 @@
-<a href="http://www.freeimagehosting.net/commercial-photography/"><img src="https://i.imgur.com/usJvIvQ.png" alt="Commercial Photography"></a>
-
+<a href="http://www.freeimagehosting.net/commercial-photography/"><img src="https://i.imgur.com/qXDNFxL.png" alt="Commercial Photography"></a>
 
 Features
 =============
