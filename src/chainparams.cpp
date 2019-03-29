@@ -112,7 +112,7 @@ public:
         nLastPOWBlock = 3016;
         nMaturity = 15;
         nMasternodeCountDrift = 20;
-		nMasternodeColleteralLimxDev = 1000; //Params().MasternodeColleteralLimxDev()
+		nMasternodeColleteralLimxDev = 5000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 1; // 
         nMaxMoneyOut = 28000000 * COIN;
         strDeveloperFeePayee = "NVPFLzTkuxrsreEkxNbNYM6SvJG7cv8gEQ";
