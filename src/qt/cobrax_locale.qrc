@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cobrax_bg.qm</file>
+        <file alias="de">locale/cobrax_de.qm</file>
+        <file alias="en">locale/cobrax_en.qm</file>
+        <file alias="es">locale/cobrax_es.qm</file>
+        <file alias="fi">locale/cobrax_fi.qm</file>
+        <file alias="fr">locale/cobrax_fr.qm</file>
+        <file alias="it">locale/cobrax_it.qm</file>
+        <file alias="ja">locale/cobrax_ja.qm</file>
+        <file alias="pl">locale/cobrax_pl.qm</file>
+        <file alias="pt">locale/cobrax_pt.qm</file>
+        <file alias="ru">locale/cobrax_ru.qm</file>
+        <file alias="sk">locale/cobrax_sk.qm</file>
+        <file alias="sv">locale/cobrax_sv.qm</file>
+        <file alias="vi">locale/cobrax_vi.qm</file>
+        <file alias="zh_CN">locale/cobrax_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cobrax_zh_TW.qm</file>
+    </qresource>
+</RCC>

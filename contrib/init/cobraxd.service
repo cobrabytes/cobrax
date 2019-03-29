@@ -1,0 +1,26 @@
+[Unit]
+Description=cobrax's distributed currency daemon
+After=network.target
+
+[Service]
+User=cobrax
+Group=cobrax
+
+Type=forking
+PIDFile=/var/lib/cobraxd/cobraxd.pid
+
+ExecStart=/usr/bin/cobraxd -daemon -pid=/var/lib/cobraxd/cobraxd.pid \
+          -conf=/etc/cobrax/cobrax.conf -datadir=/var/lib/cobraxd
+
+ExecStop=-/usr/bin/cobrax-cli -conf=/etc/cobrax/cobrax.conf \
+         -datadir=/var/lib/cobraxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
