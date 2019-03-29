@@ -1654,7 +1654,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 			nMasternodeCount = mnodeman.stable_size();
 		}
 
-		int64_t mNodeCoins = nMasternodeCount * 1000 * COIN;
+		int64_t mNodeCoins = nMasternodeCount * 5000 * COIN;
 
 		if (mNodeCoins == 0) {
             ret = 0;
